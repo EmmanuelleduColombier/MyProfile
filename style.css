@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap');
+@import "card.css";
+@import "footer.css";
+@import "buttons_links.css";
+@import "pictures.css";
 
 body {
   background-color: #edf6f9;
@@ -14,44 +18,20 @@ h1 {
   color: #006d77;
   font-size: 2em;
   line-height: 15px;
+  text-align: center;
+  margin-bottom: 26px;
 }
 
 h2 {
   font-size: 1.2em;
   color: #e29578;
+  text-align: center;
+  margin-bottom: 26px;
 }
 
-img {
-  width: 160px;
-  height: 160px;
-  object-fit: cover;
-  border-radius: 150px
-}
-
-#btn-green {
-  color: white;
-  background-color: #006d77;
-  padding: 10px;
-  border-radius: 4px;
-  box-shadow: 0 10px 30px rgba(0,0,0,.1);
-}
-
-#btn-green:hover {
-  box-shadow: 0 10px 30px rgba(0,0,0,.6);
-}
-
-a {
-  text-decoration: none;
-}
-
-.card {
-  background-color: white;
-  border-radius: 4px;
-  box-shadow: 0 10px 30px rgba(0,0,0,.1);
-  width: 800px;
-  margin: 0 auto;
-  padding: 25px;
-  margin: 20px auto;
+p {
+  text-align: justify;
+  margin-bottom: 26px;
 }
 
 .list-inline {
@@ -60,11 +40,6 @@ a {
   list-style: none;
   padding-left: 0px;
   font-size: 38px;
-}
-
-#footer {
-  color: #006d77;
-  font-weight: bold;
 }
 
 @media (max-width: 768px) {

@@ -1,0 +1,25 @@
+#btn-green {
+  color: white;
+  background-color: #006d77;
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+#btn-green:hover {
+  box-shadow: 0 10px 30px rgba(0,0,0,.6);
+}
+
+a {
+  text-decoration: none;
+  width: fit-content;
+  text-align: center;
+}
+
+a > h2:hover {
+  text-decoration: underline;
+}
+
+.download {
+  margin-bottom: 0;
+}

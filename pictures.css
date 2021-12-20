@@ -1,0 +1,15 @@
+img {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 150px;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 26px;
+}
+
+.logos {
+  width: 30px;
+  height: auto;
+  margin-right: 14px;
+}
